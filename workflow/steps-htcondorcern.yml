@@ -25,6 +25,7 @@ eventselection:
       - kubernetes_uid: 500
       - compute_backend: htcondorcern
       - htcondor_max_runtime: espresso
+      - htcondor_requirements: '(TARGET.Arch =?= "X86_64")'
 
 statanalysis:
   process:
@@ -54,3 +55,4 @@ statanalysis:
       - kubernetes_uid: 500
       - compute_backend: htcondorcern
       - htcondor_max_runtime: espresso
+      - htcondor_requirements: '(TARGET.Arch =?= "X86_64")'
