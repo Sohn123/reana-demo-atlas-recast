@@ -9,6 +9,8 @@ inputs:
 workflow:
   type: yadage
   file: workflow/workflow.yml
+  files:
+    - workflow/steps.yml
 outputs:
   files:
     - statanalysis/fitresults/limit.png

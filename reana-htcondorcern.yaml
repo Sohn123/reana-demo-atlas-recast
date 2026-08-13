@@ -9,6 +9,8 @@ inputs:
 workflow:
   type: yadage
   file: workflow/workflow-htcondorcern.yml
+  files:
+    - workflow/steps-htcondorcern.yml
 outputs:
   files:
     - statanalysis/fitresults/limit.png
